@@ -1,14 +1,15 @@
 #app {
   display: grid;
-  width: 500px;
-  height: 300px;
+  
+  width: 800px;
+  height: 400px;
   grid-template-columns: 15% auto 25%;
-  grid-template-rows: 20% 40% 40%;
+  grid-template-rows: 25% 35% 40%;
   
 }
 
 #header {
-
+border: yellow;
 background-color: #9BCE1D;
 grid-column: 1 / 4;
 }
